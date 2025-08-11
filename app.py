@@ -33,6 +33,7 @@ def load_data():
     df.set_index('time', inplace=True)
     
     # Retornar el DataFrame
+    print("cambio")
     return df
     
 
